@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import hero from '../../public/hero.svg'
 import ButtonPrimary from './utils/buttons/ButtonPrimary'
 const HeroSection = () => {
@@ -8,7 +9,10 @@ const HeroSection = () => {
          <h1 className="text-6xl leading-[70px] font-roboto-bold gap-[10px] text-black tracking-[2px]">Your digital transformation begins here</h1>
          <p className="text-base text-black font-roboto-medium tracking-[0.75px]">A new adventure for perfect design. Discover our design system based on 8px grid and scaling components.</p>
         <div className='flex flex-row gap-6'>
+       <Link to='/shop'>
         <ButtonPrimary textSize='text-lg' text='Explore features' textColor='text-white'  bgColor='bg-purple-primary' px='px-4' py='py-2'/>
+        </Link>
+        
         <ButtonPrimary textSize='text-lg' text='Get Started' textColor='text-purple-primary' px='px-4' py='py-2' borderSize='border-2'  />
         </div>
        </div>
