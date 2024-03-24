@@ -1,1 +1,1 @@
-Il faut cliquer sur le bouton "EXPLORE FEATURES" pour accéder à la pgae shop :)
+Merci de cliquer sur le bouton "EXPLORE FEATURES" pour accéder à la page shop :)
